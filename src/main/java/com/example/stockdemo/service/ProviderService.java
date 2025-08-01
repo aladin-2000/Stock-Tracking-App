@@ -1,16 +1,15 @@
 package com.example.stockdemo.service;
 
-import com.example.stockdemo.Dtos.ProviderFilterDTO;
+import com.example.stockdemo.utilities.Dtos.ProviderFilterDTO;
 import com.example.stockdemo.entities.Product;
 import com.example.stockdemo.entities.Provider;
 import com.example.stockdemo.exceptions.NotFoundException;
 import com.example.stockdemo.repositories.ProviderRepo;
-import com.example.stockdemo.repositories.Specifications.ProviderSpecification;
+import com.example.stockdemo.utilities.Specifications.ProviderSpecification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package com.example.stockdemo.repositories.Specifications;
+package com.example.stockdemo.utilities.Specifications;
 
 import com.example.stockdemo.entities.Provider;
 import org.springframework.data.jpa.domain.Specification;
